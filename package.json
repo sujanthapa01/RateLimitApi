@@ -1,0 +1,26 @@
+{
+  "name": "ratelimitapi",
+  "version": "1.0.0",
+  "description": "rate limit api sdk",
+  "homepage": "https://github.com/sujanthapa01/RateLimitApi#readme",
+  "bugs": {
+    "url": "https://github.com/sujanthapa01/RateLimitApi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujanthapa01/RateLimitApi.git"
+  },
+  "license": "ISC",
+  "author": "sujan thapa",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@upstash/redis": "^1.38.0"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
